@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YE4YJ0XQ3V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-YE4YJ0XQ3V');
+</script>
+  <title>News</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: cyan;
+  padding: 16px;
+  text-decoration: none;
+  text-align: center;
+}
+ 
+.sidebar a.active {
+  background-color: green;
+  color: yellow;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: blue;
+  color: yellow;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  text-align: center;
+  color: purple;
+  background: yellow;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+<h2 style="text-align:center;color: cyan;">One Unified Future</h2>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="members.html">Members</a>
+  <a href="products.html">Products</a>
+  <a class="active" href="news.html">News</a>
+  <a href="bylaws.html">Bylaws</a>
+  <a href="requirements.html">Requirements</a>
+</div>
+
+<div class="content">
+<h1>News</h1>
+<p>There are always many updates and news like new updates, new product release, press release and much more across all members of the One Unified Future alliances. You could find out all official news about all of our alliance members here, reported directly from the member themselves. </p>
+<br>
+<hr>
+<br>
+<h2>All News</h2>
+<h3>No news is currently available. Please come back later.</h3>
+</div>
+
+</body>
