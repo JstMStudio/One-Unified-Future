@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Projects</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZM4LK5K0LJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-ZM4LK5K0LJ');
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: green;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL button {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: yellow;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: green;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.collapsible {
+  font-size: 15px;
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: yellow;
+  font-size: 18px;
+  padding: 12px;
+  color: green;
+  width: 100%
+}
+
+.active, .collapsible:hover {
+  background-color: yellow;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: purple;
+  text-align:center;
+  color: yellow;
+  font-size: 16px;
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+<h1 style="color:yellow;text-align:center;">One Unified Future Platform</h1>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
+  <a href="members.html">Members</a>
+  <a href="news.html">News</a>
+  <a href="projects.html" class="active" style="background-color:green;">Projects</a>
+  <a href="store.html">Store</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+<div style="padding:16px;text-align:center;color:blue;">
+  <h1>Projects</h1>
+  <p><strong>This is a list of all of the projects involved in the One Unified Future alliance. A place for everyone to search and get information for all projects developed by One Unified Future or our allies members.</strong></p>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for projects" title="Type in a name">
+<ul id="myUL">
+
+<li><button type="button" class="collapsible">Teenager Heroes</button>
+<div class="content">
+<strong><p>In 2100, there are two teenage Chinese twins heroes, named Li Hui and Hu Jie with their parents in Perle out for an adventure to protect their mighty city!</p>
+<p>Teenager Heroes is a group of sci-fi book series developed by Jst Tan. There are currently in total 4 book series under the Teenager Heroes banner which are Teenager Heroes (Original), Teenager Heroes: Adult, Teenager Heroes: Children and VR Teenager Heroes.</p></strong>
+</div></li>
+
+<li><button type="button" class="collapsible">InfoHQ</button>
+<div class="content">
+<p>InfoHQ is a good wiki-like software developed by JstMStudio. InfoHQ is mainly coded and based in HTML, CSS and JavaScript with no server-side or serverless languages. InfoHQ is highly inspired and based on MediaWiki software.</p>
+</div></li>
+
+<li><button type="button" class="collapsible">JstMStudio App</button>
+<div class="content">
+<p>JstMStudio app is a software developed by JstMStudio. JstMStudio App is a
+multi-purpose open source web app developed by the team. It could let users create notes, make a to-do list, watch videos and much more.</p>
+</div></li>
+
+<li><button type="button" class="collapsible">JstMStudio Documentation</button>
+<div class="content">
+<p>JstMStudio Documentation is a high quality documentation program offered by JstMStudio. JstMStudio Documentation is a program where documentation is being made by JstMStudio for others to learn lessons and information on many platforms where JstMStudio uploaded or gave rights to.</p>
+</div></li>
+
+<li><button type="button" class="collapsible">JstMStudio Courses</button>
+<div class="content">
+<p>JstMStudio Course is a multi-type high paid course program offered by JstMStudio for learners to attend courses and learn things that are in their interest for a fraction of the price from our competitor. All courses provided are of a high quality for our customers.
+<p>JstMStudio Course acts on a principle of where customers buy the course they wanted individually instead of a pack that some courses may be useless to them. All courses are written by professionals hired by JstMStudio.</p>
+</div></li>
+</ul>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("button")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+  </script>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
